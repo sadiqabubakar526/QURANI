@@ -1,0 +1,135 @@
+.Verse {
+  position: relative;
+}
+.Verse.heading {
+  direction: rtl;
+  font-family: "Scheherazade";
+}
+.Verse .ayah.ur,
+.Verse .ayah.ar {
+  font-family: "Lateef";
+  font-size: 50px;
+  direction: rtl;
+  border: 1px solid #e2e2e2;
+  padding: 15px 20px;
+}
+.Verse .ayah {
+  font-family: "Lateef";
+  font-size: 50px;
+  border: 1px solid #e2e2e2;
+  padding: 15px 20px;
+  direction: rtl;
+}
+.Verse .ayahContainer {
+  width: 35px;
+  display: inline-block;
+  margin-right: 5px;
+}
+.Verse .ayahStop {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  padding: 50% 0;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+  background: #38a9e4;
+  color: white;
+  font-family: "Arial Black, sans";
+  font-size: 14px;
+  text-align: center;
+  line-height: 0px;
+}
+.Verse .highlight {
+  background: #edf4f9;
+}
+.Verse .wordbywordContainer {
+  display: flex;
+  justify-content: right;
+  flex-flow: row wrap;
+}
+.Verse .ayahWord {
+  padding: 10px;
+  margin: 5px;
+  background: #b7d8ef;
+}
+.Verse .wordbywordContainer + .ayahContainer {
+  position: absolute;
+  left: 10px;
+  top: 30%;
+}
+
+.Verse span.h,
+.Verse span.s,
+.Verse span.l {
+  color: #aaaaaa;
+  cursor: pointer;
+}
+.Verse span.n {
+  color: #537fff;
+  cursor: pointer;
+}
+
+.Verse span.p {
+  color: #4050ff;
+  cursor: pointer;
+}
+
+.Verse span.q {
+  color: #dd0008;
+  cursor: pointer;
+}
+
+.Verse span.o {
+  color: #2144c1;
+  cursor: pointer;
+}
+
+.Verse span.c {
+  color: #d500b7;
+  cursor: pointer;
+}
+.Verse span.f {
+  color: #9400a8;
+  cursor: pointer;
+}
+
+.Verse span.w {
+  color: #58b800;
+  cursor: pointer;
+}
+
+.Verse span.i {
+  color: #26bffd;
+  cursor: pointer;
+}
+
+.Verse span.a {
+  color: #169200;
+  cursor: pointer;
+}
+
+.Verse span.u {
+  color: #169200;
+  cursor: pointer;
+}
+
+.Verse span.d {
+  color: #a1a1a1;
+  cursor: pointer;
+}
+
+.Verse span.b {
+  color: #a1a1a1;
+  cursor: pointer;
+}
+
+.Verse span.g {
+  color: #ff7e1e;
+  cursor: pointer;
+}
+
+.Verse .ayah span div {
+  /* display: inline; */
+}
